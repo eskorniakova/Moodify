@@ -11,12 +11,12 @@ def get_match(mood, activity)
                 ],
             
             :party => [
-                '<iframe width="100%" height="400" src="https://www.mixcloud.com/widget/iframe/?feed=https%3A%2F%2Fwww.mixcloud.com%2Frobert-toombs%2Fwild-104-mks-house-party-812%2F&light=1" frameborder="0"></iframe>'
+                '<iframe width="100%" height="400" src="https://www.mixcloud.com/widget/iframe/?feed=https%3A%2F%2Fwww.mixcloud.com%2Frobert-toombs%2Fwild-104-mks-house-party-812%2F&light=1" frameborder="0"></iframe>',
                 '<iframe width="100%" height="400" src="https://www.mixcloud.com/widget/iframe/?feed=https%3A%2F%2Fwww.mixcloud.com%2Ftiddey%2Ftiddey-trance-waves-069%2F&light=1" frameborder="0"></iframe>'
                 ],
             :travel => [
                 '<iframe width="100%" height="400" src="https://www.mixcloud.com/widget/iframe/?feed=https%3A%2F%2Fwww.mixcloud.com%2FJeanLalonde%2F122-rock-progressif-vol-3-musique-de-montr%25C3%25A9al%2F&light=1" frameborder="0"></iframe>',
-                '<iframe width="100%" height="400" src="https://www.mixcloud.com/widget/iframe/?feed=https%3A%2F%2Fwww.mixcloud.com%2Fdavidpearl%2Farabs-do-it-better-arabic-electronica-part-6%2F&light=1" frameborder="0"></iframe>'
+                '<iframe width="100%" height="400" src="https://www.mixcloud.com/widget/iframe/?feed=https%3A%2F%2Fwww.mixcloud.com%2Fdavidpearl%2Farabs-do-it-better-arabic-electronica-part-6%2F&light=1" frameborder="0"></iframe>',
                 '<iframe width="100%" height="400" src="https://www.mixcloud.com/widget/iframe/?feed=https%3A%2F%2Fwww.mixcloud.com%2Flucygrin%2Fpirate-radio-homeland-part-ii%2F&light=1" frameborder="0"></iframe>'
                 
                 ],
@@ -40,7 +40,7 @@ def get_match(mood, activity)
                 '<iframe width="560" height="315" src="https://www.youtube.com/embed/L5inD4XWz4U" frameborder="0" allowfullscreen></iframe>'
                 ],
             :party => [
-                '<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/238895283&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>'
+                '<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/238895283&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>',
                 '<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/300076084&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>',
                 '<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/175137408&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>',
                 '<iframe width="100%" height="400" src="https://www.mixcloud.com/widget/iframe/?feed=https%3A%2F%2Fwww.mixcloud.com%2FMattDarey%2Fnocturnal-nouveau-624-boat-party%2F&light=1" frameborder="0"></iframe>'
