@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Moodify</title>
+        <style>
+            .emoji {
+            font-size: 700%;
+            float: left;
+            width:300px;
+            }
+        </style>
+    </head>
+    <body>
+
+        <h1>Welcome to Moodify!</h1>
+        
+        <h2>Let us help you get started!</h2>
+        
+        <h4>Step 1:</h4>
+            <p>Click an emoji that corresponds to your current mood.</p>
+        <h4>Step 2:</h4>
+            <p>Choose the activity that you are interested in doing.</p>
+        <h4>Step 3:</h4>
+            <p>Click submit and get connected to your personalized playlist!</p>
+       
+        <!--<div class="emoji">&#x1F606</div>-->
+        <!--<div class="emoji">&#x1F610</div>-->
+        <!--<div class="emoji">&#x1F614</div>-->
+       
+        <form action="POST" action="/result">
+            
+            <h2>Choose your moodmoji:</h2>
+            <input type="radio" name="emoji" value="Content"><div class="emoji">&#x1F606</div><br>
+              <input type="radio" name="emoji" value="Super Happy"><div class="emoji">&#x1F610</div><br>
+              <input type="radio" name="emoji" value="Sad"> <div class="emoji">&#x1F614</div>
+       
+              
+               
+          <h2>Choose your activity:</h2>  
+          <input type="radio" name="activity" value="Study/Quiet Work">Study/Quiet Work<br>
+          <input type="radio" name="activity" value="Exercise">Exercise<br>
+          <input type="radio" name="activity" value="Party">Party<br>
+          <input type="radio" name="activity" value="Travel">Travel<br>
+          <input type="radio" name="activity" value="Sleep"> Sleep
+          
+          <input type="submit" value="Match!">
+        </form>
+        
+        
+        
+
+    </body>
+</html>

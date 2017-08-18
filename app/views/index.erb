@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Moodify</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="https://fonts.googleapis.com/css?family=Saira+Semi+Condensed" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+  <nav class="white" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="#" class="brand-logo">Moodify</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="/about">About Us</a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="side-nav">
+        <li><a href="/about">About Us</a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+
+  <div id="index-banner" style= "height: 550px"class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br><br>
+        <h1 class="header center light-green-text text-lighten-2">Moodify</h1>
+        <div style= "margin-top: 70px" class="row center">
+          <h4 class= "white-text" >Make your Mood</h4>
+          <h5 style= "margin-top: 50px" class="header col s12 light light-green-text text-lighten-2">Match your mood and motivations to the perfect mix of music!</h5>
+        </div>
+        <div class="row center">
+          <a href="#start" style = "margin-top:50px" id="download-button" class="btn-large waves-effect waves-light light-green lighten-1 ">Get Started</a>
+        </div>
+        <br><br>
+
+      </div>
+    </div>
+    <div class="parallax"><img src="https://s-media-cache-ak0.pinimg.com/originals/27/07/a1/2707a151224b032fa6559e2a898f48c7.gif" alt="Unsplashed background img 1"></div>
+  </div>
+
+
+  <div class="container">
+    <div class="section" id="start">
+      
+      <form action="/results" method = "POST">
+
+      <!--   Icon Section   -->
+      <h1 class="pick"><center>Step 1: Pick your moodmoji</center></h1>
+        <div class="row">
+          <div class="col s12 m4">
+            <div class="icon-block">
+              <h2 class="center brown-text"><img style = "width: 60%" src = "http://www.doseoffunny.com/wp-content/uploads/2014/06/meaning-of-emojis-29.jpg"></h2>
+              <h5 class="center">Content<br><br>
+              <span style="margin-left: 10px" >
+                <input name = "group1" type = "radio" id="content" required value = "content"/> 
+                <label for="content"></label></h5>
+              </span>
+              <p class="light"></p>
+            </div>
+          </div>
+  
+          <div class="col s12 m4">
+            <div class="icon-block">
+              <h2 class="center brown-text"><img style = "width: 50%; margin-top: 12px; margin-bottom: 13px" src = "http://cdn.shopify.com/s/files/1/1061/1924/products/Emoji_Icon_-_Happy_grande.png?v=1485573423"></h2>
+              <h5 class="center">Super Happy<br><br>
+              <span style="margin-left: 10px" >
+                <input name = "group1" type = "radio" id="super_happy" value = "super_happy"/> 
+                <label for="super_happy"></label></h5>
+              </span>
+  
+              <p class="light"></p>
+            </div>
+          </div>
+  
+          <div class="col s12 m4">
+            <div class="icon-block">
+              <h2 class="center brown-text"><img style = "width: 60%" src = "http://www.pngmart.com/files/1/Sad-Emoji-PNG-Transparent-Image.png"></h2>
+              <h5 class="center">Sad<br><br>
+              <span style="margin-left: 10px" >
+                <input name = "group1" type = "radio" id="sad" value = "sad" /> 
+                <label for="sad"></label></h5>
+              </span>
+              
+  
+              <p class="light"></p>
+            </div>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  
+  
+    <div class="parallax-container valign-wrapper">
+      <div class="section no-pad-bot">
+        <div class="container">
+          <div class="row center">
+            <h5 class="header col s12 light"></h5>
+          </div>
+        </div>
+      </div>
+      <div class="parallax"><img src="https://ak6.picdn.net/shutterstock/videos/10936076/thumb/6.jpg" alt="Unsplashed background img 2"></div>
+    </div>
+  
+    <div class="container">
+      <div class="section">
+  
+        <div class="container">
+          <div class="col s12 center">
+            <h3><i class="mdi-content-send brown-text"></i></h3>
+            <h1>Step 2: Make your groovy move</h1>
+            <p class="left-align">
+              <input name="group2" type="radio" id="study" required value = "study_work" />
+              <label for="study">Study/Quiet Work</label>
+            </p>
+            <p class="left-align">
+              <input name="group2" type="radio" id="exercise" value = "exercise"/>
+              <label for="exercise">Exercise</label>
+            </p>
+            <p class="left-align">
+              <input name="group2" type="radio" id="party" value = "party"  />
+              <label for="party">Party</label>
+            </p>
+            <p class="left-align">
+              <input name="group2" type="radio" id="travel" value = "travel" />
+              <label for="travel">Travel</label>
+            </p>
+            
+            <p class="left-align">
+              <input name="group2" type="radio" id="sleep" value = "sleep"/>
+              <label for="sleep">Sleep</label>
+
+            </p>
+              <button class="btn waves-effect light-green waves-light" type="submit">Match</button>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  </form>
+
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light"></h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="https://i.ytimg.com/vi/EdVGAoHQ1yQ/maxresdefault.jpg" alt="Unsplashed background img 3"></div>
+  </div>
+
+  <footer class="page-footer light-green">
+    <!--  <div class="container">-->
+    <!--    <div class="row">-->
+    <!--      <div class="col l6 s12">-->
+    <!--        <h5 class="white-text"></h5>-->
+    <!--        <p class="grey-text text-lighten-4"></p>-->
+  
+  
+    <!--      </div>-->
+    <!--      <div class="col l3 s12">-->
+    <!--        <h5 class="white-text">Settings</h5>-->
+    <!--        <ul>-->
+    <!--          <li><a class="white-text" href="#!">Link 1</a></li>-->
+    <!--          <li><a class="white-text" href="#!">Link 2</a></li>-->
+    <!--          <li><a class="white-text" href="#!">Link 3</a></li>-->
+    <!--          <li><a class="white-text" href="#!">Link 4</a></li>-->
+    <!--        </ul>-->
+    <!--      </div>-->
+    <!--      <div class="col l3 s12">-->
+    <!--        <h5 class="white-text">Connect</h5>-->
+    <!--        <ul>-->
+    <!--          <li><a class="white-text" href="#!">Link 1</a></li>-->
+    <!--          <li><a class="white-text" href="#!">Link 2</a></li>-->
+    <!--          <li><a class="white-text" href="#!">Link 3</a></li>-->
+    <!--          <li><a class="white-text" href="#!">Link 4</a></li>-->
+    <!--      </ul>-->
+    <!--    </div>-->
+    <!--  </div>-->
+    <!--</div>-->
+    <div class="footer-copyright">
+      <div class="container">
+      
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  </body>
+</html>
